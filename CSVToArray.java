@@ -3,8 +3,6 @@ import java.util.*;
 
 public class CSVToArray {
     public static void main(String[] args) {
-        // Using an array is fine if you know the exact size,
-        // but ArrayList is often safer for dynamic files.
         String[] array = new String[666];
         String csvFile = "five_letter_words.csv";
         int index = 0;
