@@ -24,7 +24,5 @@ public class CSVToArray {
             System.err.println("Error reading the file: " + e.getMessage());
         }
 
-        // Optional: Print first 5 to verify
-        System.out.println("First 5 words: " + Arrays.toString(Arrays.copyOfRange(array, 0, 5)));
-    }
+}
 }
